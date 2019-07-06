@@ -3,6 +3,13 @@ import 'movie.dart';
 import 'package:sqflite/sqflite.dart';
 
 class MovieDAO {
+
+  /*
+   * Projeto da disciplina de Flutter - Faculdade Ibratec
+   * Aluno: Felipe Janser
+   * Matrícula: 2016206772
+   */
+
   Future<List<Movie>> get() async {
     Database db = await DBHelper().database;
 

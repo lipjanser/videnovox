@@ -1,4 +1,10 @@
 class Movie {
+  /*
+   * Projeto da disciplina de Flutter - Faculdade Ibratec
+   * Aluno: Felipe Janser
+   * Matrícula: 2016206772
+   */
+
   int id;
   String title;
   String year;

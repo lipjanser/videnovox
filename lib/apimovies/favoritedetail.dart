@@ -15,8 +15,13 @@ class FavoriteDetailPage extends StatefulWidget {
 class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
   final ItemDetail item;
 
-
   _FavoriteDetailPageState(this.item);
+
+  /*
+   * Projeto da disciplina de Flutter - Faculdade Ibratec
+   * Aluno: Felipe Janser
+   * Matrícula: 2016206772
+   */
 
   @override
   Widget build(BuildContext context) {

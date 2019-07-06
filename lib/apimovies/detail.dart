@@ -15,8 +15,13 @@ class DetailPage extends StatefulWidget {
 class _DetailPageState extends State<DetailPage> {
   final ItemDetail item;
 
-
   _DetailPageState(this.item);
+
+  /*
+   * Projeto da disciplina de Flutter - Faculdade Ibratec
+   * Aluno: Felipe Janser
+   * Matrícula: 2016206772
+   */
 
   @override
   Widget build(BuildContext context) {

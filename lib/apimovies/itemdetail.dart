@@ -3,6 +3,12 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ItemDetail {
+  /*
+   * Projeto da disciplina de Flutter - Faculdade Ibratec
+   * Aluno: Felipe Janser
+   * Matrícula: 2016206772
+   */
+
   final String title;
   final String year;
   final String rated;

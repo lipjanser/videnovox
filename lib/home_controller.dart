@@ -4,6 +4,12 @@ import 'package:rxdart/rxdart.dart';
 class HomeController extends InheritedWidget {
   final Widget child;
 
+  /*
+   * Projeto da disciplina de Flutter - Faculdade Ibratec
+   * Aluno: Felipe Janser
+   * Matrícula: 2016206772
+   */
+
   HomeController({this.child}) : super(child: child);
 
   final BehaviorSubject<int> _streamController = BehaviorSubject.seeded(0);

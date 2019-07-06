@@ -5,6 +5,12 @@ class DBHelper {
   static DBHelper _dbHelper;
   static Database _database;
 
+  /*
+   * Projeto da disciplina de Flutter - Faculdade Ibratec
+   * Aluno: Felipe Janser
+   * Matrícula: 2016206772
+   */
+
   DBHelper._createInstance();
 
   factory DBHelper() {

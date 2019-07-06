@@ -9,7 +9,8 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   //TextEditingController _textEditingController = TextEditingController(text: "Difendo/Rictusempra");
 
-  /* Projeto da disciplina de Flutter - Faculdade Ibratec
+  /*
+   * Projeto da disciplina de Flutter - Faculdade Ibratec
    * Aluno: Felipe Janser
    * Matrícula: 2016206772
    */

@@ -16,8 +16,13 @@ class ListPage extends StatefulWidget {
 class _ListState extends State<ListPage> {
   final String item;
 
-
   _ListState(this.item);
+
+  /*
+   * Projeto da disciplina de Flutter - Faculdade Ibratec
+   * Aluno: Felipe Janser
+   * Matrícula: 2016206772
+   */
 
   @override
   Widget build(BuildContext context) {

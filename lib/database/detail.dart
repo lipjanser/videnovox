@@ -12,6 +12,13 @@ class DetailPage extends StatefulWidget {
 }
 
 class _DetailPageState extends State<DetailPage> {
+
+  /*
+   * Projeto da disciplina de Flutter - Faculdade Ibratec
+   * Aluno: Felipe Janser
+   * Matrícula: 2016206772
+   */
+
   @override
   Widget build(BuildContext context) {
     final _controller = TextEditingController(text: widget.movie?.title);
