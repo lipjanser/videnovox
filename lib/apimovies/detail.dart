@@ -127,13 +127,11 @@ class _DetailPageState extends State<DetailPage> {
                                                               imdbid: "${snapshot.data["imdbID"]}",
                                                               type: "${snapshot.data["Type"]}",
                                                               poster: "${snapshot.data["Poster"]}"));
-/*                                Navigator.of(context).push(
-                                  MaterialPageRoute(
-                                    builder: (context) => ListPage(
-                                      item: "${snapshot.data["imdbID"]}",
-                                    ),
+                                Scaffold.of(context).showSnackBar(
+                                  SnackBar(
+                                    content: Text("New Favorite Added"),
                                   ),
-                                );*/
+                                );
                               },
                               child: Icon(Icons.star),
                           ),

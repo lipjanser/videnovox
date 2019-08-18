@@ -43,6 +43,11 @@ class _ListState extends State<ListPage> {
                   direction: DismissDirection.endToStart,
                   onDismissed: (direction) {
                     MovieDAO().delete(snapshot.data[index].id);
+                    Scaffold.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text("Favorite Deleted"),
+                      ),
+                    );
                   },
                   background: Container(
                     alignment: Alignment.centerRight,
