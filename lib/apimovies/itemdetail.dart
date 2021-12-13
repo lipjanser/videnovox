@@ -57,7 +57,7 @@ class ItemDetail {
 
   static Future<dynamic> retrieveData(String idmovie) async {
     //final response = await http.get("http://www.transparencia.gov.br/api-de-dados/bolsa-familia-por-municipio?mesAno=201812&codigoIbge=3518800&pagina=1");
-    final response = await http.get("http://www.omdbapi.com/?apikey=b446ef61&i=$idmovie");
+    final response = await http.get("http://www.omdbapi.com/?apikey=SUA_CHAVE_AQUI&i=$idmovie");
 
     if (response.statusCode == 200) {
       return json.decode(response.body);
